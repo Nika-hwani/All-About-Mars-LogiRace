@@ -1,0 +1,337 @@
+body{
+    background-color: #D6A68E;
+    margin: 0;
+}
+
+
+nav{
+  text-align: center;
+}
+
+
+
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #B03A23;
+}
+
+
+nav a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    color: #691200;
+    transition: font-size 1s;
+}
+
+
+main{
+  background: url(https://learn.logikaschool.com/uploads/student/3149460/69fbab7f1fc1b.png) no-repeat center center/cover;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+header{
+    height: 70px;
+    background-color: #BC704A;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #BC704A;
+    padding: 15px;
+}
+
+
+.ss{
+    width: 130px;
+    height: 130px;
+}
+
+
+.logo{
+    width: 400px;
+    padding-left: 10px;
+   
+}
+
+
+.logo1{
+    width: 400px;
+    padding-left: 10px;
+   
+}
+
+
+
+
+.star{
+    width: 70px;
+    margin-left:10px ;
+}
+
+
+.apps img{
+    width: 100px;
+}
+
+
+.aa{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.Mars{
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: bisque;
+}
+
+
+
+
+.Mars h1::first-line{
+    color: #FF3D16;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+}
+
+
+
+
+.Mars p::first-letter{
+    color: #FF3D16;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.history div{
+    margin-top: 25px;
+}
+
+
+
+
+.history h1{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFAB9B;
+    display: inline;
+    background-color: rgba(62, 18, 10, 0.6);
+    border: 7px groove #B03A23;
+}
+
+
+
+
+.history h1:hover{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFAB9B;
+    display: inline;
+    background-color: rgba(62, 18, 10, 0.6);
+    border: 7px groove #B03A23;
+    box-shadow: 5px 3px 20px 2px black;
+}
+
+
+img{
+  width: 80px;
+}
+
+
+.ims{
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+
+
+
+.im-2{
+  position: relative;
+  top: 15px;
+  opacity: 0.5;
+}
+
+
+
+
+.im-1{
+  opacity: 0.5;
+}
+
+
+
+
+.im-3{
+  opacity: 0.5;
+}
+.im-2:hover{
+  position: relative;
+  top: 15px;
+  opacity: 1;
+  width: 130px;
+  transition: opacity, width 1s;
+}
+
+
+
+
+.im-1:hover{
+  opacity: 1;
+  width: 130px;
+  transition: opacity, width 1s;
+}
+
+
+
+
+.im-3:hover{
+  opacity: 1;
+  width: 130px;
+  transition: opacity, width 1s;
+}
+
+
+
+
+.im-4{
+  position: relative;
+  top: 15px;
+  opacity: 0.5;
+}
+
+
+
+
+.im-4:hover{
+  position: relative;
+  top: 15px;
+  opacity: 1;
+  width: 200px;
+  transition: opacity, width 1s;
+}
+
+
+.im-5{
+  position: relative;
+  top: 15px;
+  opacity: 0.5;
+}
+
+
+
+
+.im-5:hover{
+  position: relative;
+  top: 15px;
+  opacity: 1;
+  width: 165px;
+  transition: opacity, width 1s;
+}
+
+
+.im-6{
+  position: relative;
+  top: 15px;
+  opacity: 0.5;
+}
+
+
+
+
+.im-6:hover{
+  position: relative;
+  top: 15px;
+  opacity: 1;
+  width: 165px;
+  transition: opacity, width 1s;
+}
+
+
+
+
+.table{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  background: linear-gradient(90deg,rgba(77, 17, 0, 1) 0%, rgba(255, 110, 97, 1) 50%, rgba(77, 17, 0, 1) 100%);
+  border: 3px solid #B03A23;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+
+
+td{
+  border: 3px double #B03A23;
+}
+
+
+
+
+td{
+  color: beige;
+}
+
+
+
+
+td a{
+  color: beige;
+  text-decoration: none;
+}
+
+
+
+
+td a:visited{
+  color: #691200;
+}
+
+
+
+
+.apps img:hover{
+  border-radius: 30px;
+  box-shadow:  5px 2px 10px 2px black;
+}
+
+@keyframes translateX{
+  0%{transform: translateX(0);}
+  25%{transform: translateX(-10px);}
+  75%{transform: translateX(10px);}
+  100%{transform: translateX(0);}
+}
+
+.animation{
+  animation: translateX 3s ease infinite;
+}
+
+@keyframes translateY{
+  0%{transform: translateY(0);}
+  25%{transform: translateY(10px);}
+  75%{transform: translateY(-10px);}
+  100%{transform: translateY(0);}
+}
+
+.animation1{
+  margin: 20px;
+  animation: translateY 3s ease infinite;
+}
+
